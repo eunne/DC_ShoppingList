@@ -1,6 +1,16 @@
+<br/>
+
 # JS: 그림을 동적으로 만들기
 
+<br/>
+
 ## 🏃🏾‍♀️실행화면
+
+![img](../img/coordinates.gif)
+
+<br/>
+<br/>
+<br/>
 
 ## 🏃🏾‍♀️실행코드
 
@@ -39,6 +49,9 @@ function mouseMove(event) {
 
 이 파트는 HTML/CSS 와 JS를 연결시키는 코드가 들어가서 처음엔 조금 헷갈렸는데 지금은 어떤 원리로 작동되는지 대략 이해되는 것 같다.
 
+<br/>
+<br/>
+
 ### ✔️마우스 포인터를 따라 움직이게 해보자
 
 ```jsx
@@ -57,6 +70,10 @@ function mouseMove(event) {
 
 앞에서 말했듯이 left는 x, top은 y와 같으므로 움직이고 싶은 방향의 좌표를 연결시켜주면 된다.
 
+<br/>
+<br/>
+<br/>
+
 ## 🤔 궁금증
 
 찾아보니 querySelector와 getElementbyId 두가지 방법을 사용하던데 차이가 뭘까?
@@ -70,6 +87,4 @@ function mouseMove(event) {
 
 근데 내가 getElementby로 불러왔을 때, style.left가 적용되지 않았다. 해당 방법을 사용하면 style을 불러오는 방법이 다른 것일까? 
 
- 
-
-공부해보기로 한다.
+공부해서 추가하자.
