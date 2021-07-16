@@ -1,0 +1,31 @@
+div {
+  text-align: center;
+}
+aside {
+  position: fixed;
+  left: 60%;
+  top: 20px;
+  margin: 0px;
+}
+.findRabbit {
+  width: 200px;
+  height: 90px;
+  font-size: 20px;
+  background-color: rgb(255, 147, 183);
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10%;
+}
+.reset {
+  width: 200px;
+  height: 90px;
+  font-size: 20px;
+  background-color: palevioletred;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 30px;
+  border-radius: 10%;
+}
