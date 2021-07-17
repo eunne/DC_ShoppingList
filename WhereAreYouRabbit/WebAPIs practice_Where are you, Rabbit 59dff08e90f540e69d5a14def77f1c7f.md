@@ -4,18 +4,20 @@
 
 # 구현
 
-두가지를 구현했다.
+스크롤링 연습으로 두가지를 구현해봤다.<br/>
+원래 예제는 수직이었는데 scrollIntoView에서 inline설정을 바꾸면 수평으로 이동한다고 하길래 어떻게 작동하는지 궁금해서 두개 다 만들어봤다.
+
+<br/>
 
 
-- 수평으로 스크롤링하는 토끼
-![horizontal](img/rabbit_horizontal.gif)
+### 수평으로 스크롤링하는 토끼
+![horizontal](img/horizontal.gif)
 
-- 수직으로 스크롤링하는 토끼
-![vertical](img/rabbit_vertical.gif)
+<br/>
 
 
-원래 예제는 수직이었는데 scrollIntoView에서 inline설정을 바꾸면 수평으로 이동한다고 해서 궁금해서 만들어봤다.
-단, 수평으로 이동하기 위해서는 body에 그림이 줄바꿈되지 않도록 "white-space: nowrap;" 이라는 설정을 하나 넣어줘야 한다.
+### 수직으로 스크롤링하는 토끼
+![vertical](img/vertical.gif)
 
 
 <br/>
@@ -37,7 +39,7 @@
 <br/>
 <br/>
 
-## 필요한 기능
+## 구현한 기능
 
 - [x]  토끼로 이동하는 버튼
 
@@ -80,9 +82,6 @@
     (이미지가 가장 아래에 배치됨)
 
 <br/>
-<br/>
-
-## 추가기능
 
 - [x]  다시 위로 되돌아가는 버튼
 
@@ -97,9 +96,23 @@
     다시 상단으로 되돌아가는 버튼은 이벤트 핸들러 프로퍼티 방식인 onclick을 사용했다.
 
 <br/>
-<br/>
-<br/>
 
+- [x]  가로로 움직인는 스크롤링 구현
+1. scrollIntoView 내부의 inline 세팅을 변경하면 가로로 움직인다고 해서 궁금하니까 가로로 움직이는 토끼도 구현해봤다.
+2. 이 때에는 클릭버튼의 문구가 "Gotcha!"로 바뀌도록 구현했다.
+
+    ```jsx
+    ...
+
+    button.addEventListener("click", (event) => {
+          rabbit.scrollIntoView({behavior: "smooth", inline:"center"})
+          button.innerText = "Gotcha!"
+    ```
+    
+
+<br/>
+<br/>
+<br/>
 
 # 코드리뷰
 
@@ -115,6 +128,8 @@ img {
 
 - 수직으로 만들 때 각 이미지가 한줄에 나오지 않게 하기 위해서 div태그를 이용했는데 img css에 "display: block;"을 넣어주면 각 라인마다 하나의 이미지만 나온다.
 
+<br/>
+
 ```jsx
 body {
       background-color: pink;
@@ -125,4 +140,6 @@ body {
 ```
 
 - body에다가 "text-align: center;"를 넣어주면 전체적으로 가운데정렬 되므로 각 태그마다 일일이 정렬해주지 않아도 된다.
-- white-space를 넣으면 수평으로 스크롤링 된다.
+- 수평으로 스크롤링 하기 위해서는 "white-space: nowrap;"를 넣어주면 된다.
+
+<br/>
