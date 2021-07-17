@@ -49,6 +49,14 @@ Aim your target! 코드리뷰
 <br/>
 <br/>
 
+### ✔️성능을 업그레이드 해보자!
+
+- [업그레이드 구현내용](README_modify.md)
+
+
+<br/>
+<br/>
+
 # References
 
 - [getElementById VS querySelector](https://velog.io/@chloeee/getElementById-%EA%B7%B8%EB%A6%AC%EA%B3%A0-querySelector-%EC%B0%A8%EC%9D%B4%EC%A0%90)
