@@ -35,10 +35,11 @@ transform은 composition만 변경하니까 성능이 좋아진다. 그러므로
 
 css에 해당 값을 지정해놓지 않아도 움직임은 잘 일어난다.
 
+<br/>
 
-<top과 transform 속성의 성능비교>
-![top](img/top.gif)
-![transform](img/transform.gif)
+* top과 transform 속성의 성능비교
+![top](img/top.PNG)
+![transform](img/transform.PNG)
 
 
 
@@ -87,7 +88,10 @@ target.style.transform = `translate(${x - targetHalfWidth}px, ${y - targetHalfHe
 
 이미지를 크로스선 정 중앙으로 맞추기 위해서 기존에는 CSS에서 transform으로 좌표위치를 조정해줬지만, 그렇게 하면 아래처럼 움직일 때마다 움직이는 좌표로 부터 -50%씩 떨어지면서 움직이게 되버린다. 
 
+<br/>
+
 ![target_modify](img/target_modify.gif)
+
 <br/>
 
 그래서 지금은 transform으로 좌표를 유동적으로 변경하기 때문에 변경하는 좌표에다가 직접 이미지 위치를 조정해줘야 한다.
@@ -97,7 +101,6 @@ target.style.transform = `translate(${x - targetHalfWidth}px, ${y - targetHalfHe
 이전에 해당 코드 작성 시, 직접 좌표조정값을 숫자로 쓰지 않고 어떻게 하면 변수로 들여올 수 있을까?가 궁금했는데 이렇게 이미지크기에 따른 절반값을 변수로 가져오면 어떤 이미지크기든 상관없이 항상 크로스라인 정중앙에 위치할 수 있게 되니 굳!
 
 
-<br/>
 <br/>
 <br/>
 
