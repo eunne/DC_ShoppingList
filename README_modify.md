@@ -124,7 +124,7 @@ summary 탭에서는 어떤 부분에서 지연이 발생하는지도 상세히 
 
 하지만 개선 후에는 빨간부분 없이 초록불만 들어와있는 것을 볼 수 있다. (파란색 상자로 표시한 부분)
 
-![compare](/img/compare.png)
+![compare](/img/compare.PNG)
 
 <br/>
 <br/>
