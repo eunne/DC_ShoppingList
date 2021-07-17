@@ -35,6 +35,14 @@ transform은 composition만 변경하니까 성능이 좋아진다. 그러므로
 
 css에 해당 값을 지정해놓지 않아도 움직임은 잘 일어난다.
 
+
+<top과 transform 속성의 성능비교>
+![top](img/top.gif)
+![transform](img/transform.gif)
+
+
+
+
 <br/>
 <br/>
 <br/>
