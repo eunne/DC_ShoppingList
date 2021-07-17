@@ -104,6 +104,31 @@ target.style.transform = `translate(${x - targetHalfWidth}px, ${y - targetHalfHe
 <br/>
 <br/>
 
+# 진짜 성능이 좋아졌는지 어떻게 앎?
+
+백문이 불여일견이라 하지 않던가.
+정말 좋아졌는지 직접 확인해보지 않고는 알 수가 없다.
+
+이전에 만든 버전과 성능을 개선한 버전 두개를 크롬 콘솔창에서 Performance탭을 통해 정말 성능이 좋아졌는지 확인해본다.
+
+찐분홍이 개선 전이고 초록이 개선 후이다.
+
+<br/>
+
+![compare](/img/compare.gif)
+
+<br/>
+
+보면, 개선 전에는 experience부분에 빨간불이 들어와 있다. 눌러보면 "layout shift"라는 경고를 주고 있다. 
+summary 탭에서는 어떤 부분에서 지연이 발생하는지도 상세히 알려주고 있다.
+
+하지만 개선 후에는 빨간부분 없이 초록불만 들어와있는 것을 볼 수 있다. (파란색 상자로 표시한 부분)
+
+![compare](/img/compare.png)
+
+<br/>
+<br/>
+
 ### 참고사이트
 
 [https://csstriggers.com](https://csstriggers.com)
