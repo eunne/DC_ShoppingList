@@ -20,10 +20,10 @@ addEventListener('load', () => {
     const y = event.clientY
 
     //기존 top과 left에 연결되어 있었기 때문에 삭제해줘야함.
-    vertical.style.left = `${x}px`;
-    horizontal.style.top = `${y}px`;
-    // vertical.style.transform = `translateX(${x}px)`;
-    // horizontal.style.transform = `translateY(${y}px)`;
+//     vertical.style.left = `${x}px`;
+//     horizontal.style.top = `${y}px`;
+    vertical.style.transform = `translateX(${x}px)`;
+    horizontal.style.transform = `translateY(${y}px)`;
 
     //이미지연결
     // target.style.left = `${x}px`;
