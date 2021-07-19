@@ -1,0 +1,16 @@
+ul {
+  padding: 5px
+}
+
+.alllist {
+  padding: 5px;
+}
+
+#addbtn {
+  position: absolute;
+  left: 25%;
+  background-color: pink;
+  display: inline-block;
+  border: none;
+  font-size: 15px;
+}
