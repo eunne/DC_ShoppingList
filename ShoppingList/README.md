@@ -71,7 +71,7 @@ function clickButton(){
 
    밑에는 실행화면
 
-   ![addlist](/img/addlist.png)
+   ![addlist](/img/addlist.PNG)
 
 <br/>
 
