@@ -2,10 +2,10 @@
 
 ## 요소
 
-1. 목록을 적는 창: [mozilla](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input)
-2. 적은 목록을 보여주는 창
-3. 목록 삭제하기
-4. 리스트에 들어가면 text창 내역 삭제하기
+- [X] 목록을 적는 창: [mozilla](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input)
+- [X] 적은 목록을 보여주는 창
+- [X] 목록 삭제하기
+- [X] 리스트에 들어가면 text창 내역 삭제하기
 
 <br/>
 <br/>
