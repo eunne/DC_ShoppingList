@@ -1,3 +1,5 @@
+# Let's make Shopping list app
+
 ## 요소
 
 1. 목록을 적는 창: [mozilla](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input)
