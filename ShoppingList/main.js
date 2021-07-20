@@ -1,6 +1,7 @@
 const input = document.querySelector("#input");
 const add = document.querySelector("#add");
 const list = document.querySelector("#list");
+const body = document.querySelector("body");
 
 add.addEventListener("click", clickButton);
 input.addEventListener("keyup", event => {
@@ -9,6 +10,9 @@ input.addEventListener("keyup", event => {
     }
   }
 );
+body.addEventListener("resize", resize)
+
+
 
 let idx = 0;
 
@@ -26,4 +30,9 @@ function clickButton(){
 function remove(idx) {
   let temp = document.getElementById('addlist'+idx)
   list.removeChild(temp)
+}
+
+function resize(event) { 
+  body.style.
+  body.style.transform = `translate(${event.clientX}px + ${50}%, ${event.clientY}px)`
 }
