@@ -1,6 +1,6 @@
 # Let's make Shopping list app
 
-## 요소
+## 😆 요소
 
 - [X] 목록을 적는 창: [mozilla](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input)
 - [X] 적은 목록을 보여주는 창
@@ -9,8 +9,9 @@
 
 <br/>
 <br/>
+<br/>
 
-## 기능구현
+## 😆 기능구현
 
 ### 1. 쇼핑리스트를 입력하는 창
 
@@ -141,8 +142,11 @@ onkeyup기능을 '엔터키'로 한정시키려면 if (event.keyCode === 13 ) �
 
    <br/>
    <br/>
+<br/>
    
-## 실행화면
+## 😆 실행화면
+
+### VER1 / July 19th, 2021
 
 
 그리하여 결론적으로 아래와 같이 구현했다. 아직 미완성이지만 오늘까지 구현한 기능을 기록으로 남겨본다.
@@ -150,3 +154,18 @@ onkeyup기능을 '엔터키'로 한정시키려면 if (event.keyCode === 13 ) �
 내일 한번 위 코드를 '안보고' 어떻게 구현했었는지 떠올리면서 다시 작성해봐야겠다.
 
 ![shoppinglist](/img/shoppinglistv1.gif)
+
+
+<br/>
+<br/>
+
+
+### VER2 / July 21th, 2021
+
+html의 구조에 대해 공부했고, css를 좀 더 예쁘게 꾸며보았다.
+
+해당 컬러는 dribbled이라는 design에 대한 인사이트를 얻을 수 있는 앱의 실행컬러인데 너무 마음에 들어서 차용해왔다.
+
+아직 js는 구현하지 못했다.
+
+![shoppinglistv2](/img/shoppinglistv2.gif)
